@@ -13,4 +13,5 @@ Build a sentiment analysis pipeline using real-world ice cream review data. The 
 - Create a document of the most optimized model, using the best-performing model.
 
 ## Next Tasks
+- Fix functions in src and notebook directories
 - Adding API
