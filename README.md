@@ -1,6 +1,6 @@
 # Ice Cream Review Sentiment
 
-Phase 1: Foundation & Data Engineering
+Phase 2: Machine Learning Models
 
 ## Project Goal
 Build a sentiment analysis pipeline using real-world ice cream review data. The goal is to explore, clean, and extract insights and features from the data to prepare it for machine learning.
@@ -9,6 +9,8 @@ Build a sentiment analysis pipeline using real-world ice cream review data. The 
 - Structuring a real-world data science project
 - Cleaning and exploring the datasets (reviews.csv and product.csv)
 - Visualizing graph based on business insights
+- Apply machine learning models to the feature dataset
+- Create a document of the most optimized model, using the best-performing model.
 
 ## Next Tasks
-- Adding machine learning models
+- Adding API
