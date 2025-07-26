@@ -1,6 +1,6 @@
 # Ice Cream Review Sentiment System
 
-A project that analyzes, models, serves customer sentiment for ice cream reviews using NLP and machine learning.
+A project that analyzes, models, and serves customer sentiment for ice cream reviews using NLP and machine learning.
 
 ## Project Goal
 Build a sentiment analysis pipeline using real-world ice cream review data. The goal is to explore, clean, and extract insights and features from the data to prepare it for machine learning.
@@ -8,8 +8,8 @@ Build a sentiment analysis pipeline using real-world ice cream review data. The 
 ## Learning Goals
 - Structuring a real-world data science project
 - Cleaning and exploring the datasets (reviews.csv and product.csv)
-- Baseline models, comparisions, optimizing the model and create documentation
-- With RESTful API with model serving and model versioning with MLflow
+- Baseline models, comparisons, optimizing the model, and creating documentation
+- With RESTful API, model serving, and model versioning with MLflow
 
 ## Project Structure
 ```
@@ -17,9 +17,6 @@ ice-cream_sentiment_analysis/
 ├── data/
 │ ├── raw/
 │ └── processed/
-├── models/
-│ ├── final_sentiment_model.pkl
-│ └── model_documentation.json
 ├── notebooks/
 │ ├── 01_explore_data.ipynb
 │ ├── 02_data_exploration.ipynb
@@ -29,15 +26,12 @@ ice-cream_sentiment_analysis/
 │ ├── data_processing.py
 │ ├── features.py
 │ └── models.py
-├── api/
-│ └── app.py
-├── mlruns/
 ├── requirements.txt
 └── README.md
 ```
-## Steup Instructions
+## Step Instructions
 
-### 1. Clone the repo and set up environment
+### 1. Clone the repo and set up the environment
 
 ```bash
 git clone <ice-cream_sentiment_analysis>
@@ -50,4 +44,4 @@ python -m spacy download en_core_web_sm
 
 
 ## Next Tasks
-- Adding machine learning models
+- Adding API features
