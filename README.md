@@ -25,6 +25,9 @@ ice-cream_sentiment_analysis/
 ├── src/
 │ ├── data_processing.py
 │ ├── features.py
+│ ├── analyzer.py
+│ ├── optimizer.py
+│ ├── trainer.py
 │ └── models.py
 ├── requirements.txt
 └── README.md
