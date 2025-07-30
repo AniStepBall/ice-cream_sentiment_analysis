@@ -1,12 +1,11 @@
 {
-  "model_type": "Logistic Regression",
-  "test_accuracy": 0.8440599769319492,
+  "model_type": "Voting Hard",
+  "test_accuracy": 0.8874279123414072,
   "best_parameters": {
-    "classifier__C": 1,
-    "classifier__penalty": "l2",
-    "tfidf__max_features": 3000
+    "classifier__voting": "soft",
+    "classifier__weights": null
   },
-  "training_date": "2025-07-20",
+  "training_date": "2025-07-30",
   "features_used": "TF-IDF (5000 features) + text statistics",
   "classes": [
     "negative",
