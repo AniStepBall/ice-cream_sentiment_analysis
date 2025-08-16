@@ -99,6 +99,22 @@ Visualizations include:
 ✅ Feature importance (TF-IDF terms, sentiment drivers)  
 ✅ Performance heatmap  
 
+## Future Enhancements
+Integrate deep learning models (BERT, RoBERTa, DistilBERT).
+Expand feature engineering with word embeddings (GloVe, fastText).
+Add explainability with SHAP/LIME for model transparency.
+Improve class balancing with SMOTE or focal loss.
+Deploy with Streamlit for interactive review sentiment demo.
+Set up MLflow or Weights & Biases for experiment tracking.
+Support multilingual sentiment analysis with HuggingFace transformers.
+
+## References
+SpaCy: https://spacy.io
+VaderSentiment: https://github.com/cjhutto/vaderSentiment
+scikit-learn: https://scikit-learn.org/stable/
+
+**Next Tasks**
+- Adding API features
 
 ## Step Instructions
 
@@ -134,22 +150,7 @@ Train and evaluate models:
 ```bash
 python scripts/models.py:
 
-## Future Enhancements
-Integrate deep learning models (BERT, RoBERTa, DistilBERT).
-Expand feature engineering with word embeddings (GloVe, fastText).
-Add explainability with SHAP/LIME for model transparency.
-Improve class balancing with SMOTE or focal loss.
-Deploy with Streamlit for interactive review sentiment demo.
-Set up MLflow or Weights & Biases for experiment tracking.
-Support multilingual sentiment analysis with HuggingFace transformers.
 
-## References
-SpaCy: https://spacy.io
-VaderSentiment: https://github.com/cjhutto/vaderSentiment
-scikit-learn: https://scikit-learn.org/stable/
-
-**Next Tasks**
-- Adding API features
 
 
 
