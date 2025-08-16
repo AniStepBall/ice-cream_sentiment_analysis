@@ -102,6 +102,7 @@ Visualizations include:
 
 ## Step Instructions
 
+
 ### 1. Clone the repo and set up the environment
 
 ```bash
@@ -113,11 +114,11 @@ pip install -r requirements.txt
 python -m spacy download en_core_web_sm
 ```
 **Setup & Usage**
-1. Clone this repo:
+Clone this repo:
    ```bash
    git clone https://github.com/yourusername/sentiment-analysis.git
    cd sentiment-analysis
-Install dependencies:
+Install dependencies
 
 ```bash
 
@@ -133,8 +134,7 @@ Train and evaluate models:
 ```bash
 python scripts/models.py:
 
-
-**Future Enhancements**
+## Future Enhancements
 Integrate deep learning models (BERT, RoBERTa, DistilBERT).
 Expand feature engineering with word embeddings (GloVe, fastText).
 Add explainability with SHAP/LIME for model transparency.
@@ -143,12 +143,13 @@ Deploy with Streamlit for interactive review sentiment demo.
 Set up MLflow or Weights & Biases for experiment tracking.
 Support multilingual sentiment analysis with HuggingFace transformers.
 
-**References**
+## References
 SpaCy: https://spacy.io
 VaderSentiment: https://github.com/cjhutto/vaderSentiment
 scikit-learn: https://scikit-learn.org/stable/
 
 **Next Tasks**
 - Adding API features
+
 
 
